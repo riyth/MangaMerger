@@ -8,10 +8,7 @@
             <ColumnDefinition Width="348*"/>
         </Grid.ColumnDefinitions>
         <TextBox x:Name="TextBox" HorizontalAlignment="Left" Height="23" Margin="92,26,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
-        <Label Content="File Path:" HorizontalAlignment="Left" Margin="22,23,0,0" VerticalAlignment="Top"/>
-        <Button Content="Generate Zip" HorizontalAlignment="Left" Margin="13,183,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.Column="1"/>
-        <Label Content="Folder Name" HorizontalAlignment="Left" Margin="22,54,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="TextBox2" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="114,58,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="13,183,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.Column="1"/>
 
     </Grid>
 </Window>

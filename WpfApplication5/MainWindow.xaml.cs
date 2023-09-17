@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 using System.IO;
 using Ionic.Zip;
 
-namespace WpfApplication5
+namespace MangaConverter
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -83,6 +83,11 @@ namespace WpfApplication5
                 
 
                 }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            
+        }
             
 
             }
